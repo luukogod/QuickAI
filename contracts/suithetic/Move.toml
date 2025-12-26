@@ -1,0 +1,9 @@
+[package]
+name = "suithetic"
+edition = "2024.beta"
+
+[dependencies]
+usdc =  { git = "https://github.com/atoma-network/stablecoin-sui.git", subdir = "packages/usdc", rev = "master" }
+
+[addresses]
+suithetic = "0x0"
